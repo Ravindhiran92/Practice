@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="md.css">
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<lable for="name">First Name</lable>
+		<input id="name" type="text" >
+		<lable for="name">Last Name</lable>
+		<input id="name" type="text" >
+		</form>
+		<form>
+			<label for="Gender">Male</label>
+			<input name="Gender" id="Male" type="radio">
+			<label for="Gender">Female</label>
+			<input name="Gender" id="Female" type="radio">
+			<label for="Gender">others</label>
+			<input name="Gender" id="others" type="radio"></form>
+			<form><label for="Email">Email</label>
+			<input name="Email" id="Email" type="text" placeholder="your email"required>
+			<label for="password">Password</label>
+			<input name="password" id="password" type="password" placeholder="your password" pattern title="password must have 5-10"></form>
+			<form><label for="Birthday"> Birthday</label>
+			<input type="date"></form>
+			<form><label for="check"> I agree to the terms and conditions</label>
+			<input type="checkbox"></form>
+			<button>Submit</button>
+			<h2><a href="www.google.com">Visit our website</a></h2>
+
+			
+
+
+
+
+</body>
+</html>
+CSS part as follow:
+h1{color: rgb(180,214,10);}
+label{color: rgba(175,123,232,.7);}
+p{color:rgba(10,200,134,9);}
